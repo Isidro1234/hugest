@@ -5,7 +5,7 @@ import { Avatar, AvatarFallback, AvatarFallbackText, AvatarGroup, AvatarImage } 
 const AvatarCustom = ({name , image}:{name:string, image?:ImageSourcePropType | string | null}) => {
    
     return (
-    <Avatar className='w-17 h-17'>
+    <Avatar className='w-14 h-14'>
       <AvatarFallbackText className='text-[24px] text-[#6C463E]'>{name}</AvatarFallbackText>
       {image && (typeof image === 'string'
         ? <AvatarImage source={{ uri: image }} />

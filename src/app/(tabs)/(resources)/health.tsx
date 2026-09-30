@@ -3,7 +3,7 @@ import React from 'react'
 
 const Health = () => {
   return (
-    <View>
+    <View className='p-5 h-full bg-white'>
       <Text>events</Text>
     </View>
   )

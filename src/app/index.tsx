@@ -1,15 +1,17 @@
 import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Button } from '@/components/ui/button'
 import { Image } from 'expo-image'
 import Logo from '@/assets/images/logo.png'
 import { router } from 'expo-router'
 
+
 const Index = () => {
+  
   return (
     <View className='p-5 bg-white h-full w-full '>
-      <View className='w-full flex-1'>
-        <Image style={{width:'100%', height:'100%'}} source={Logo}/>
+      <View className='w-full flex-1 justify-center items-center'>
+        <Image style={{width:'80%', height:'80%'}} source={Logo}/>
       </View>
       <View className='flex-[0.4] mt-[-70]'>
         <Text className='text-[22px] p-4 text-[#6C463E] text-center'>Get access to all the resources Houston, provides to our lovely mothers</Text>

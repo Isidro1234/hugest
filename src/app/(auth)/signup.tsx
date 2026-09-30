@@ -10,11 +10,11 @@ import { Link } from 'expo-router'
 const SignUp = () => {
   return (
     <View className='h-full w-full bg-white p-10'>
-        <View className='w-full flex items-center mt-10'>
-            <Image style={{width:150, height:150}} source={Logo}/>
+        <View className='w-full flex items-center mt-5'>
+            <Image style={{width:200, height:200}} source={Logo}/>
         </View>
        
-      <Text className='text-[#6C463E] pb-3 text-[17px] text-center font-bold mt-4'>Sign Up</Text>
+      <Text className='text-[#6C463E] pb-3 text-[25px] text-center font-bold mt-2'>Sign Up</Text>
       <Text className='text-[#6C463E] pb-3 text-[14px] text-center'>
         Get access to all the resources Houston, provides to our lovely mothers
       </Text>

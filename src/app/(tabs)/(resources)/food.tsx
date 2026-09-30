@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const Baby = () => {
+const food = () => {
   return (
     <View className='p-5 h-full bg-white'>
-      <Text>B</Text>
+      <Text>food</Text>
     </View>
   )
 }
 
-export default Baby
+export default food
 
 const styles = StyleSheet.create({})

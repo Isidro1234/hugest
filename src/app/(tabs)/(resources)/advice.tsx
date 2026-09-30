@@ -3,7 +3,7 @@ import React from 'react'
 
 const  Facts = () => {
   return (
-    <View>
+    <View className='p-5 h-full bg-white'>
    
     </View>
   )
